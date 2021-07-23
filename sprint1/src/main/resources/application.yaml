@@ -1,0 +1,12 @@
+server:
+    port: 2021
+spring:
+    datasource:
+        driverClassName: oracle.jdbc.driver.OracleDriver
+        password: capg
+        url: jdbc:oracle:thin:@localhost:1521:xe
+        username: capg
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
